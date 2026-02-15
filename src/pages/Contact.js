@@ -538,8 +538,6 @@ const Contact = () => {
               {/* Phone Card - Highlighted */}
               <div 
                 className="contact-card phone-card"
-                onMouseEnter={() => setHoveredCard('phone')}
-                onMouseLeave={() => setHoveredCard(null)}
               >
                 <div className="contact-card-header">
                   <div className="contact-card-icon">

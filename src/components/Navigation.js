@@ -19,11 +19,6 @@ const Navigation = () => {
       
       if (currentScrollY > 50) {
         setScrolled(true);
-        if (currentScrollY > lastScrollY) {
-          setScrollDirection('down');
-        } else {
-          setScrollDirection('up');
-        }
       } else {
         setScrolled(false);
       }
