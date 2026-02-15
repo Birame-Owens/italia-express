@@ -187,7 +187,7 @@ const Home = () => {
         <section className="section-padding container">
           <div className="split-grid">
             <div className="image-wrapper order-mobile-last">
-              <img src="/images/accueil italia express.png" alt="Intérieur Restaurant" />
+              <img loading="lazy" src="/images/accueil italia express.png" alt="Intérieur Restaurant" />
             </div>
             <div className="content-side">
               <span style={{ color: '#D4A574', fontWeight: 700, letterSpacing: 2 }}>AUTHENTIQUE</span>
@@ -238,7 +238,7 @@ const Home = () => {
               <a href="/menu" className="btn-modern">Côté Sucré <FaChevronRight /></a>
             </div>
             <div className="image-wrapper order-mobile-first">
-              <img src="/images/tiramisu.webp" alt="Tiramisu Maison" />
+              <img loading="lazy" src="/images/tiramisu.webp" alt="Tiramisu Maison" />
             </div>
           </div>
         </section>
@@ -247,7 +247,7 @@ const Home = () => {
         <section className="section-padding container" style={{ background: '#fdfdfd' }}>
           <div className="split-grid">
             <div className="image-wrapper">
-              <img src="/images/pates.jpeg" alt="Pâtes Italiennes" />
+              <img loading="lazy" src="/images/pates.jpeg" alt="Pâtes Italiennes" />
             </div>
             <div className="content-side">
               <span style={{ color: '#D4A574', fontWeight: 700 }}>LA PASTA</span>

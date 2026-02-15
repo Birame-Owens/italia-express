@@ -673,8 +673,8 @@ const Menu = () => {
                 <h1 className="menu-carte-title">Notre Carte Complète</h1>
                 
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: 'clamp(1.5rem, 2.5vw, 2rem)', width: '100%' }}>
-                  <img src="/images/carte1 .png" alt="Carte 1" style={{ width: '100%', height: 'auto', borderRadius: '0.625rem', boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)' }} />
-                  <img src="/images/carte2.png" alt="Carte 2" style={{ width: '100%', height: 'auto', borderRadius: '0.625rem', boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)' }} />
+                  <img loading="lazy" src="/images/carte1 .png" alt="Carte 1" style={{ width: '100%', height: 'auto', borderRadius: '0.625rem', boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)' }} />
+                  <img loading="lazy" src="/images/carte2.png" alt="Carte 2" style={{ width: '100%', height: 'auto', borderRadius: '0.625rem', boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)' }} />
                 </div>
               </div>
             ) : (

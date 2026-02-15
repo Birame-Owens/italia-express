@@ -29,6 +29,7 @@ const PizzaCard = ({ pizza, item }) => {
       {itemData.image && (
         <div className="relative w-full h-40 xs:h-44 sm:h-48 md:h-56 bg-gradient-to-b from-gray-100 to-gray-200 overflow-hidden">
           <img 
+            loading="lazy"
             src={imageUrl}
             alt={itemData.name}
             className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-700"
