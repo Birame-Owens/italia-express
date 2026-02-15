@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
-import { FaPhone, FaMapMarkerAlt, FaFacebook, FaInstagram, FaClock, FaCheckCircle, FaEnvelope, FaHeart } from 'react-icons/fa';
+import { FaPhone, FaMapMarkerAlt, FaFacebook, FaInstagram, FaClock, FaCheckCircle } from 'react-icons/fa';
 import { restaurantInfo } from '../data/menuData';
 
 /**
@@ -8,7 +8,6 @@ import { restaurantInfo } from '../data/menuData';
  * Design moderne avec palette dorée/beige
  */
 const Contact = () => {
-  const [hoveredCard, setHoveredCard] = useState(null);
 
   return (
     <>

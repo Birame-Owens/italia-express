@@ -10,7 +10,6 @@ import { FaBars, FaTimes, FaPhone, FaMapMarkerAlt, FaClock } from 'react-icons/f
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [scrollDirection, setScrollDirection] = useState('down');
   const [lastScrollY, setLastScrollY] = useState(0);
 
   // Scroll detection

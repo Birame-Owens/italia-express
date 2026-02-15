@@ -7,8 +7,7 @@ import {
   nosPates,
   nosSalades,
   nosDesserts,
-  nosBoissons,
-  restaurantInfo
+  nosBoissons
 } from '../data/menuData';
 
 /**

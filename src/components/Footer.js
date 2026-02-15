@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaPhone, FaMapMarkerAlt, FaFacebook, FaInstagram, FaChevronRight, FaClock, FaEnvelope } from 'react-icons/fa';
+import { FaPhone, FaMapMarkerAlt, FaFacebook, FaInstagram, FaChevronRight, FaClock } from 'react-icons/fa';
 import { restaurantInfo } from '../data/menuData';
 
 /**
