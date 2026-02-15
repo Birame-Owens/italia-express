@@ -465,20 +465,13 @@ export const offres = [
   {
     id: 'offer2',
     number: '2',
-    title: 'Offre 110%',
-    description: '110% sur pizzas à emporter',
-    note: 'Offre exceptionnelle'
-  },
-  {
-    id: 'offer3',
-    number: '3',
     title: 'Boisson offerte',
     description: 'À compter de 4 pizzas ou pâtes = 1 boisson offerte',
     note: 'Offre valable sur présentation du bon'
   },
   {
-    id: 'offer4',
-    number: '4',
+    id: 'offer3',
+    number: '3',
     title: 'Dimanche promo',
     description: 'Le dimanche midi, toutes nos pizzas à moitié prix',
     note: 'Pizzas sur place uniquement - Réservé aux clients présents'
