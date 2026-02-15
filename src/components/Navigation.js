@@ -389,7 +389,7 @@ const Navigation = () => {
 
         /* Mobile Menu Button */
         .nav-mobile-toggle {
-          display: flex;
+          display: none;
           align-items: center;
           justify-content: center;
           width: 2.5rem;
