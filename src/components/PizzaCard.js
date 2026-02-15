@@ -55,7 +55,7 @@ const PizzaCard = ({ pizza, item }) => {
         </p>
 
         {/* Prices Section */}
-        <div className="bg-gradient-to-r from-primary/5 to-red-50 rounded-lg sm:rounded-xl p-2.5 xs:p-3 sm:p-3.5 md:p-4 mb-2.5 xs:mb-3 sm:mb-4 border border-primary/10">
+        <div className="bg-gradient-to-r from-primary/5 to-red-50 rounded-lg sm:rounded-xl p-2.5 xs:p-3 sm:p-3.5 md:p-4 border border-primary/10">
           <div className="grid grid-cols-2 gap-1.5 xs:gap-2 sm:gap-3">
             {itemData.price1 && (
               <div className="text-center bg-white rounded py-1.5 xs:py-2 sm:py-2.5 md:py-3 px-2 shadow-sm">
@@ -76,13 +76,6 @@ const PizzaCard = ({ pizza, item }) => {
               </div>
             )}
           </div>
-        </div>
-
-        {/* Ingredients Note */}
-        <div className="border-t border-gray-100 pt-2 xs:pt-2.5">
-          <p className="text-xs text-gray-500 leading-relaxed line-clamp-2">
-            <span className="font-bold text-gray-700">Ingrédients:</span> {itemData.description}
-          </p>
         </div>
       </div>
     </div>

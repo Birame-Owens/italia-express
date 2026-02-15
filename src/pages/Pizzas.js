@@ -42,7 +42,7 @@ const Pizzas = () => {
         .pizzas-grid {
           display: grid;
           grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-          gap: clamp(1.25rem, 2.5vw, 2rem);
+          gap: clamp(2rem, 3vw, 2.5rem);
           animation: fadeIn 0.6s ease-out;
           margin-bottom: clamp(2rem, 4vw, 3.5rem);
         }
@@ -101,7 +101,7 @@ const Pizzas = () => {
           }
 
           .pizzas-grid {
-            grid-template-columns: 1fr;
+            grid-template-columns: repeat(2, 1fr);
             gap: 1rem;
           }
         }

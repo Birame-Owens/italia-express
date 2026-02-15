@@ -742,7 +742,7 @@ const Home = () => {
         <div className="home-section-content">
           <div className="about-grid">
             <div className="about-image">
-              <img src="/images/accueil%20italia%20express.png" alt="Italia Express Bollwiller" />
+              <img src="/images/accueil italia express.png" alt="Italia Express Bollwiller" />
             </div>
             <div className="about-content">
               <p className="about-intro">Notre Restaurant</p>

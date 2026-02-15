@@ -238,18 +238,12 @@ const Navigation = () => {
 
         /* Desktop Menu */
         .nav-desktop {
-          display: none;
+          display: flex;
           align-items: center;
           gap: 0.25rem;
           flex: 1;
           justify-content: center;
-        }
-
-        @media (min-width: 1024px) {
-          .nav-desktop {
-            display: flex;
-            animation: fadeInSlideUp 0.6s ease-out 0.1s both;
-          }
+          animation: fadeInSlideUp 0.6s ease-out 0.1s both;
         }
 
         @keyframes fadeInSlideUp {
@@ -315,6 +309,32 @@ const Navigation = () => {
         .nav-link:hover::after {
           transform: scaleX(1);
           transform-origin: left;
+        }
+
+        @media (max-width: 768px) {
+          .nav-link {
+            padding: 0.4rem 0.7rem;
+            font-size: 0.8rem;
+          }
+
+          .nav-link::after {
+            bottom: 0.3rem;
+            left: 0.7rem;
+            right: 0.7rem;
+          }
+        }
+
+        @media (max-width: 511px) {
+          .nav-link {
+            padding: 0.3rem 0.5rem;
+            font-size: 0.75rem;
+          }
+
+          .nav-link::after {
+            bottom: 0.25rem;
+            left: 0.5rem;
+            right: 0.5rem;
+          }
         }
 
         /* CTA Button */
